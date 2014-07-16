@@ -15,7 +15,7 @@ examples: deps
 doc: deps
 	rustdoc $(LIBS) src/lib.rs
 
-run: 
+run: examples
 	./examples/example
 
 buildrun: examples run
